@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.1133b5a4.css",
+    "main.js": "/portfolio/static/js/main.9d543633.js",
+    "static/media/PlayfairDisplay-Black.ttf": "/portfolio/static/media/PlayfairDisplay-Black.2cae369406147e0156db.ttf",
+    "static/media/PlayfairDisplay-Regular.ttf": "/portfolio/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
+    "static/media/PlayfairDisplay-Italic.ttf": "/portfolio/static/media/PlayfairDisplay-Italic.e07c93f2a8635b5cef7b.ttf",
+    "static/media/me3.png": "/portfolio/static/media/me3.9a781efeaa4286a15014.png",
+    "static/media/me.png": "/portfolio/static/media/me.b62001691e24e9f0d36e.png",
+    "static/media/space.png": "/portfolio/static/media/space.7b4ae56ebd8b94fa2e28.png",
+    "static/media/react.png": "/portfolio/static/media/react.09df55c21bdb35711dd0.png",
+    "static/media/ts.png": "/portfolio/static/media/ts.8e08c2165d60d7ca62a9.png",
+    "static/media/russia.png": "/portfolio/static/media/russia.e314a09bbab1844bfaea.png",
+    "static/media/vk.png": "/portfolio/static/media/vk.aef20084ee579ee27adf.png",
+    "static/media/css.png": "/portfolio/static/media/css.6c9fd512b594be488cf9.png",
+    "static/media/js.png": "/portfolio/static/media/js.4b0c58056d3b2c2196bf.png",
+    "index.html": "/portfolio/index.html",
+    "main.1133b5a4.css.map": "/portfolio/static/css/main.1133b5a4.css.map",
+    "main.9d543633.js.map": "/portfolio/static/js/main.9d543633.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1133b5a4.css",
+    "static/js/main.9d543633.js"
+  ]
+}
