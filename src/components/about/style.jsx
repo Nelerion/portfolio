@@ -8,7 +8,7 @@ export const Container = styled.div`
   margin-top: 70px;
   display: flex;
   padding-bottom: 50px;
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     margin-top: 0;
     padding-bottom: 10px;
   }
@@ -20,7 +20,7 @@ export const PhotoBlockContainer = styled.div`
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     width: 100%;
     padding: 20px 0;
     border-bottom: 1px solid #434649;
@@ -41,16 +41,16 @@ export const AboutMe = styled.section`
   width: 100%;
   display: flex;
   margin-top: 50px;
-  @media (${devices.tablet}) {
+  padding: 0 15px;
+  @media ${devices.tablet} {
     flex-direction: column;
     align-items: center;
   }
-  padding: 0 15px;
 `;
 export const Biography = styled.div`
   width: 60%;
   box-sizing: border-box;
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     width: 100%;
     padding-left: 0;
   }

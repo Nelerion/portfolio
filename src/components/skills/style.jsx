@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "../../mediaQueries/media";
 export const Container = styled.div`
   width: 100%;
   display: flex;
@@ -38,7 +39,8 @@ export const MySkills = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 25px;
-  @media (max-width: 670px) {
+  border: 5px initial #492344;
+  @media ${devices.custom} {
     width: 16.33%;
   }
 `;
@@ -49,7 +51,8 @@ export const SkillsIcon = styled.img`
     transition: 300ms;
     transform: scale(1.2);
   }
-  @media (max-width: 670px) {
+  @media ${devices.custom} {
     height: 80px;
   }
 `;
+

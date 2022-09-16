@@ -12,7 +12,7 @@ export const MessageBlock = styled.div`
   margin: 0 auto;
   padding: 20px 10px;
   box-sizing: border-box;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     flex-direction: column;
     align-items: center;
   }
@@ -23,7 +23,7 @@ export const MessageSend = styled.div`
   flex-direction: column;
   gap: 10px;
   align-items: flex-start;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
@@ -31,7 +31,7 @@ export const Contact = styled.div`
   width: 30%;
   display: flex;
   align-items: center;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
@@ -49,7 +49,7 @@ export const Email = styled.input`
     border: 3px solid #816023;
     transition: 100ms;
   }
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
@@ -65,7 +65,7 @@ export const MesssageArea = styled.textarea`
     border: 3px solid #816023;
     transition: 100ms;
   }
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
@@ -92,7 +92,7 @@ export const ContactForm = styled.form`
   flex-direction: column;
   gap: 20px;
   color: #816023;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     align-items: center;
   }
 `;

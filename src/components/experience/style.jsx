@@ -11,7 +11,7 @@ export const ExperienceBlock = styled.div`
   display: flex;
   padding: 50px 10px;
   box-sizing: border-box;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     flex-direction: column;
     padding: 50px 15px;
   }
@@ -29,7 +29,7 @@ export const RigtBlockExperience = styled.div`
   width: 70%;
   display: flex;
   height: auto;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
@@ -59,11 +59,11 @@ export const ExperienceJobInfo = styled.div`
   flex-direction: column;
   width: 80%;
   gap: 20px;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     margin-top: 20px;
     width: 90%;
   }
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     width: 100%;
   }
 `;
@@ -73,10 +73,10 @@ export const Progress = styled.span`
   align-items: center;
   flex-direction: column;
   margin-top: 90px;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 10%;
   }
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     display: none;
   }
 `;

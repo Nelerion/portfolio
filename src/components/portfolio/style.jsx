@@ -9,7 +9,7 @@ export const PortfolioBlock = styled.div`
   display: flex;
   padding: 50px 10px;
   box-sizing: border-box;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     flex-direction: column;
     align-items: center;
   }
@@ -18,7 +18,7 @@ export const PortfolioBlock = styled.div`
 export const LeftBlock = styled.div`
   width: 30%;
   display: flex;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -40,14 +40,14 @@ export const ProjectInfoBLock = styled.div`
   width: 30%;
   font-family: PlayFair-regular;
   font-size: 24px;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     width: 100%;
   }
 `;
 export const Project = styled.div`
   display: flex;
   justify-content: space-between;
-  @media (${devices.laptop}) {
+  @media ${devices.laptop} {
     align-items: center;
     justify-content: space-between;
     flex-direction:column-reverse;
@@ -102,7 +102,7 @@ export const ButtonCode = styled.a`
   }
 `;
 export const Description = styled.p`
-@media (${devices.laptop}) {
+@media ${devices.laptop} {
     text-align:center;
   }
 `;

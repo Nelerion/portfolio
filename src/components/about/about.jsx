@@ -82,7 +82,7 @@ const About = () => {
             junior frontend. I don't have an IT education, but that doesn't stop
             me from learning and creating something new. My first job was
             related to cutting diamonds into brilliants. I then worked as a gem
-            and metal appraiser. as Leading Expert
+            and metal appraiser as Leading Expert
           </BioMe>
         </Biography>
       </AboutMe>

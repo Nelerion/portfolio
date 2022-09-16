@@ -1,4 +1,3 @@
-
 import './App.css';
 import styled from 'styled-components';
 import Head from './components/header/header';
@@ -9,7 +8,6 @@ import Message from './components/message/message';
 import Footer from './components/footer/footer';
 import React from 'react';
 import Experience from './components/experience/experience';
-
 
 const Container = styled.div`
 display: flex;
@@ -30,7 +28,6 @@ function App() {
       <Message />
       <Footer />
     </Container>
-
   );
 }
 

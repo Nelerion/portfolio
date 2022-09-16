@@ -31,10 +31,10 @@ export const Title = styled.h1`
   color: #26142c;
   letter-spacing: 30px;
   padding: 0 10px;
-  @media (${devices.tablet}) {
+  @media ${devices.tablet} {
     letter-spacing: 15px;
   }
-  @media (${devices.mobileL}) {
+  @media ${devices.mobileL} {
     letter-spacing: 5px;
   }
   
