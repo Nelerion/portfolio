@@ -1,7 +1,7 @@
 
 import './App.css';
 import styled from 'styled-components';
-import Head from './components/header';
+import Head from './components/header/header';
 import About from './components/about/about';
 import Skills from './components/skills/skills';
 import Portfolio from './components/portfolio/portfolio';
