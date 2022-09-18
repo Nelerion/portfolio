@@ -33,9 +33,9 @@ const Experience = () => {
           </Progress>
           <ExperienceJobInfo>
             <ExperienceJob>
-              <JobTitle>Star learning frontend</JobTitle>
+              <JobTitle>Start learning frontend</JobTitle>
               <JobCompany>Self-learning</JobCompany>
-              <AgeJob>2021 - Present</AgeJob>
+              <AgeJob>July 2021 - Present</AgeJob>
               <ExperienceUL>
                 <li>
                   <span>
